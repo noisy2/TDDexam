@@ -6,6 +6,10 @@ public class ReverseRoman {
 		// TODO Auto-generated method stub
 		int outInteger = 0;
 		
+		if( "V".equals(inputRoman) ) {
+			outInteger = 4;
+			return outInteger;
+		}
 		if( "IV".equals(inputRoman) ) {
 			outInteger = 4;
 			return outInteger;
