@@ -30,6 +30,10 @@ class RomanTest {
 	void number_should_be_5_for_V() {
 		assertEquals(5, ReverseRoman.of("V"));
 	}
+	@Test
+	void number_should_be_6_for_VI() {
+		assertEquals(6, ReverseRoman.of("VI"));
+	}
 	
 
 }
