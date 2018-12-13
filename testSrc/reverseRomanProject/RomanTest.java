@@ -15,5 +15,10 @@ class RomanTest {
 	void number_should_be_2_for_II() {
 		assertEquals(2, ReverseRoman.of("II"));
 	}
+	
+	@Test
+	void number_should_be_3_for_III() {
+		assertEquals(3, ReverseRoman.of("III"));
+	}
 
 }
