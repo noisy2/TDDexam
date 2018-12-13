@@ -7,8 +7,7 @@ public class ReverseRoman {
 	public static int of(String inputRoman) {
 		// TODO Auto-generated method stub
 		int outInteger = 0;
-		int index=0;
-		if( "V".equals(inputRoman) ) {
+		for(int index=0; index < inputRoman.length(); ) {
 			for(int i=0; i<romanLetters.length; i++) {
 				if(inputRoman.substring(index).startsWith(romanLetters[i])) {
 					outInteger += romanUnits[i];
@@ -16,16 +15,6 @@ public class ReverseRoman {
 				}
 			}
 		}
-		if( "IV".equals(inputRoman) ) {
-			outInteger = 4;
-			return outInteger;
-		}
-		for(int i=0; i< inputRoman.length(); i++) {
-			if("I".equals(inputRoman.substring(i, i+1))) {
-				outInteger+=1;
-			}
-		}
-		
 		return outInteger;
 	}
 
