@@ -2,9 +2,9 @@ package reverseRomanProject;
 
 public class ReverseRoman {
 
-	public static Object of(String string) {
+	public static int of(String string) {
 		// TODO Auto-generated method stub
-		return null;
+		return 1;
 	}
 
 }
