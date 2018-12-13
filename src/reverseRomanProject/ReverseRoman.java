@@ -7,7 +7,7 @@ public class ReverseRoman {
 		int outInteger = 0;
 		
 		if( "V".equals(inputRoman) ) {
-			outInteger = 4;
+			outInteger = 5;
 			return outInteger;
 		}
 		if( "IV".equals(inputRoman) ) {
